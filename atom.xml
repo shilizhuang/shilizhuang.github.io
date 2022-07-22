@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>生命不息学习不止</title>
+  
+  <subtitle>只要学不死，就往死里学</subtitle>
+  <link href="https://shilizhuang.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://shilizhuang.github.io/"/>
+  <updated>2022-07-22T12:01:29.542Z</updated>
+  <id>https://shilizhuang.github.io/</id>
+  
+  <author>
+    <name>shilizhuang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue2基础知识</title>
+    <link href="https://shilizhuang.github.io/2022/07/22/vue03/"/>
+    <id>https://shilizhuang.github.io/2022/07/22/vue03/</id>
+    <published>2022-07-22T11:54:40.000Z</published>
+    <updated>2022-07-22T12:01:29.542Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;vue组件&quot;&gt;&lt;a href=&quot;#vue组件&quot; class=&quot;headerlink&quot; title=&quot;vue组件&quot;&gt;&lt;/a&gt;&lt;code&gt;vue&lt;/code&gt;组件&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;组件之间的父子关系&lt;/p&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="vue2" scheme="https://shilizhuang.github.io/categories/vue2/"/>
+    
+    
+    <category term="Markdown" scheme="https://shilizhuang.github.io/tags/Markdown/"/>
+    
+    <category term="vue2" scheme="https://shilizhuang.github.io/tags/vue2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue2基础知识</title>
+    <link href="https://shilizhuang.github.io/2022/07/22/vue02/"/>
+    <id>https://shilizhuang.github.io/2022/07/22/vue02/</id>
+    <published>2022-07-22T11:53:45.000Z</published>
+    <updated>2022-07-22T12:01:18.201Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;过滤器&quot;&gt;&lt;a href=&quot;#过滤器&quot; class=&quot;headerlink&quot; title=&quot;过滤器&quot;&gt;&lt;/a&gt;过滤器&lt;/h2&gt;&lt;h4 id=&quot;什么是过滤器&quot;&gt;&lt;a href=&quot;#什么是过滤器&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="vue2" scheme="https://shilizhuang.github.io/categories/vue2/"/>
+    
+    
+    <category term="Markdown" scheme="https://shilizhuang.github.io/tags/Markdown/"/>
+    
+    <category term="vue2" scheme="https://shilizhuang.github.io/tags/vue2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue2基础知识</title>
+    <link href="https://shilizhuang.github.io/2022/07/22/vue01/"/>
+    <id>https://shilizhuang.github.io/2022/07/22/vue01/</id>
+    <published>2022-07-22T11:52:20.000Z</published>
+    <updated>2022-07-22T12:01:06.246Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;推荐大家安装的-VScode-中的-Vue-插件&quot;&gt;&lt;a href=&quot;#推荐大家安装的-VScode-中的-Vue-插件&quot; class=&quot;headerlink&quot; title=&quot;推荐大家安装的 VScode 中的 Vue 插件&quot;&gt;&lt;/a&gt;推荐大家安装的</summary>
+        
+      
+    
+    
+    
+    <category term="vue2" scheme="https://shilizhuang.github.io/categories/vue2/"/>
+    
+    
+    <category term="Markdown" scheme="https://shilizhuang.github.io/tags/Markdown/"/>
+    
+    <category term="vue2" scheme="https://shilizhuang.github.io/tags/vue2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DOM节点和BOM节点</title>
+    <link href="https://shilizhuang.github.io/2022/07/22/web-apis-di-yi-tian/"/>
+    <id>https://shilizhuang.github.io/2022/07/22/web-apis-di-yi-tian/</id>
+    <published>2022-07-22T11:48:12.000Z</published>
+    <updated>2022-07-22T12:00:43.301Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;什么是DOM？&quot;&gt;&lt;a href=&quot;#什么是DOM？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="javascript" scheme="https://shilizhuang.github.io/categories/javascript/"/>
+    
+    
+    <category term="js" scheme="https://shilizhuang.github.io/tags/js/"/>
+    
+    <category term="Markdown" scheme="https://shilizhuang.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DOM节点和BOM节点</title>
+    <link href="https://shilizhuang.github.io/2022/07/22/web-apis-di-er-tian/"/>
+    <id>https://shilizhuang.github.io/2022/07/22/web-apis-di-er-tian/</id>
+    <published>2022-07-22T11:46:50.000Z</published>
+    <updated>2022-07-22T12:00:26.143Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;什么是事件？&quot;&gt;&lt;a href=&quot;#什么是事件？&quot; class=&quot;headerlink&quot; title=&quot;什么是事件？&quot;&gt;&lt;/a&gt;什么是事件？&lt;/h4&gt;&lt;p&gt;​	事件就是在编程过程中系统内发生的动作或者事情，例如鼠标经过、点击、离开等等&lt;/p&gt;
+&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="javascript" scheme="https://shilizhuang.github.io/categories/javascript/"/>
+    
+    
+    <category term="js" scheme="https://shilizhuang.github.io/tags/js/"/>
+    
+    <category term="Markdown" scheme="https://shilizhuang.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
