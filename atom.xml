@@ -6,7 +6,7 @@
   <link href="https://shilizhuang.github.io/atom.xml" rel="self"/>
   
   <link href="https://shilizhuang.github.io/"/>
-  <updated>2022-07-22T12:01:29.542Z</updated>
+  <updated>2022-07-23T01:39:32.714Z</updated>
   <id>https://shilizhuang.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue3快速上手</title>
+    <link href="https://shilizhuang.github.io/2022/07/23/vue3-kuai-su-shang-shou/"/>
+    <id>https://shilizhuang.github.io/2022/07/23/vue3-kuai-su-shang-shou/</id>
+    <published>2022-07-23T01:38:20.000Z</published>
+    <updated>2022-07-23T01:39:32.714Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;img src=&quot;https://user-images.githubusercontent.com/499550/93624428-53932780-f9ae-11ea-8d16-af949e16a09f.png&quot; style=&quot;width:200px&quot; /&gt;
+
+
+
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="vue3" scheme="https://shilizhuang.github.io/categories/vue3/"/>
+    
+    
+    <category term="vue" scheme="https://shilizhuang.github.io/tags/vue/"/>
+    
+    <category term="vue3" scheme="https://shilizhuang.github.io/tags/vue3/"/>
+    
+  </entry>
   
   <entry>
     <title>vue2基础知识</title>
