@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="movies, 个人博客,个人学习经验分享,前端知识">
+    <meta name="keywords" content="vue2基础知识04, 个人博客,个人学习经验分享,前端知识">
     <meta name="description" content="本博客只用于学习和复习">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>movies | 白小纯</title>
+    <title>vue2基础知识04 | 白小纯</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/libs/awesome/css/all.css">
@@ -418,12 +418,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">movies</h1>
+                    <h1 class="description center-align post-title">vue2基础知识04</h1>
                 </div>
             </div>
         </div>
@@ -537,12 +537,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                            <a href="/tags/vue2/">
+                                <span class="chip bg-color">vue2</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/vue2/" class="post-category">
+                                vue2
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -558,21 +575,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-23
+                    2022-07-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    843
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -595,7 +612,120 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h3 id="vue指令"><a href="#vue指令" class="headerlink" title="vue指令"></a>vue指令</h3><h4 id="v-cloak指令"><a href="#v-cloak指令" class="headerlink" title="v-cloak指令"></a>v-cloak指令</h4><ol>
+<li><p>v-cloak没有具体值</p>
+</li>
+<li><p>v-cloak指令在vue实例绑定了容器以后就会消失</p>
+</li>
+<li><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">[v-cloak]:</span> <span class="token punctuation">&#123;</span>
+        <span class="token property">display</span><span class="token punctuation">:</span> none
+    <span class="token punctuation">&#125;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-cloak</span><span class="token punctuation">></span></span>我是个演示案例<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>!--</span> <span class="token attr-name">v-cloak指令可以用在网络加载慢的时候</span> <span class="token attr-name">--!</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ol>
+<h4 id="v-once指令"><a href="#v-once指令" class="headerlink" title="v-once指令"></a>v-once指令</h4><ol>
+<li><p>v-once指令也没有具体值</p>
+</li>
+<li><p>v-once指令绑定的容器在初次渲染完以后就不会在发生数据变化</p>
+</li>
+<li><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>app<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">v-once</span><span class="token punctuation">></span></span>&#123;&#123;n&#125;&#125;&lt;//p> // 插值表达式里的n值在初次渲染显示出来以后，不管接下来n值在怎么变,p标签里的文本值都不会再改变了 
+&lt;//div>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+	<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span>
+    <span class="token literal-property property">el</span><span class="token operator">:</span> <span class="token string">'.app'</span>
+    <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+        <span class="token literal-property property">n</span><span class="token operator">:</span> <span class="token number">1</span>
+    <span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li></li>
+</ol>
+<h4 id="v-pre指令"><a href="#v-pre指令" class="headerlink" title="v-pre指令"></a>v-pre指令</h4><ol>
+<li><p>v-pre同样的也没有具体的值，它使绑定的DOM元素跳过Vue渲染的过程，加快加载速度</p>
+</li>
+<li><p>所以这条指令最好用在没有模板语法的元素上</p>
+</li>
+<li><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">v-pre</span><span class="token punctuation">></span></span>这是个演示DOM<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</li>
+<li></li>
+</ol>
+<h3 id="自定义指令"><a href="#自定义指令" class="headerlink" title="自定义指令"></a>自定义指令</h3><ol>
+<li><p>定义语法：</p>
+<ul>
+<li><p>局部指令</p>
+  <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span>
+    <span class="token literal-property property">directives</span><span class="token operator">:</span><span class="token punctuation">&#123;</span><span class="token literal-property property">指令名</span><span class="token operator">:</span>配置对象<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span>
+<span class="token comment">// 或者</span>
+<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span>
+    <span class="token literal-property property">directives</span><span class="token operator">:</span><span class="token punctuation">&#123;</span><span class="token literal-property property">指令名</span><span class="token operator">:</span>回调函数<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+</li>
+<li><p>全局指令</p>
+  <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript">Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span>指令名<span class="token operator">:</span>配置对象<span class="token punctuation">)</span>
+<span class="token comment">// 或者</span>
+Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span>指令名<span class="token operator">:</span>回调函数<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li>
+</ul>
+</li>
+<li><p>配置对象中常用的3个回调函数:</p>
+<ul>
+<li>bind: 指令与元素成功绑定时调用</li>
+<li>inserted: 指令所在元素被插入页面时调用</li>
+<li>update: 指令所在模板结构被重新解析时调用</li>
+</ul>
+</li>
+<li><p>备注：</p>
+<ol>
+<li>指令定义时不加v-，但使用时要加v-</li>
+<li>指令名如果是多个单词，要使用kebab-case命名方式，不要使用小驼峰命名</li>
+<li>指令里的回调函数中的this指向window</li>
+</ol>
+</li>
+</ol>
+<h3 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h3><ol>
+<li>beforecreate<br> 数据监测和数据代理创建之前，data和methods不可用</li>
+<li>created<br>数据监测和数据代理创建完毕，可以使用data和methods</li>
+<li>beforemount<br>虚拟DOM生成</li>
+<li>mounted（重点）<br>虚拟DOM插入页面生成实际DOM，<br>  Ajax请求，定时器和订阅开启</li>
+<li>beforechange<br>数据源发生变化，页面还未重新渲染</li>
+<li>changed<br>  页面重新渲染完毕</li>
+<li>beforedestroy（重点）<br>  vm即将销毁，数据和方法还可以使用，但是不推荐<br>  关闭定时器和订阅</li>
+<li>destroyed</li>
+</ol>
+<h3 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h3><h4 id="vue中使用组件的三大步骤："><a href="#vue中使用组件的三大步骤：" class="headerlink" title="vue中使用组件的三大步骤："></a>vue中使用组件的三大步骤：</h4><ol>
+<li>定义组件</li>
+<li>注册组件</li>
+<li>使用组件</li>
+</ol>
+<h4 id="一、如何定义一个组件"><a href="#一、如何定义一个组件" class="headerlink" title="一、如何定义一个组件"></a>一、如何定义一个组件</h4><p>使用Vue.extend(options)创建，其中options和new Vue(options)时传入的options几乎一样，但是也有区别：<br>区别如下：</p>
+<ol>
+<li>el不要写，为什么？-最终所有的组件都要经过一个vm的管理，其中vm中的el决定服务那个容器。</li>
+<li>data必须写成函数，为什么？-避免组件复用时，数据存在引用关系。<br>   备注：使用template可以配置组件结构。</li>
+</ol>
+<h4 id="二、如何注册组件"><a href="#二、如何注册组件" class="headerlink" title="二、如何注册组件"></a>二、如何注册组件</h4><ol>
+<li>局部注册：靠new Vue()时传入components选项</li>
+<li>全局注册，靠Vue.component(‘组件名’,组件)</li>
+</ol>
+<h4 id="三、编写组件标签："><a href="#三、编写组件标签：" class="headerlink" title="三、编写组件标签："></a>三、编写组件标签：</h4><ol>
+<li><p>关于组件名：</p>
+<ul>
+<li>一个单词组成：<br>   第一种写法： school<br>   第二种写法：school</li>
+<li>多个单词组成：<br>   第一种写法：my-school<br>   第二种写法: MySchool(需要vue脚手架)</li>
+</ul>
+</li>
+<li><p>关于组件标签<br>   第一种写法：<school></school><br>   第二种写法：<school/> (需要脚手架)</p>
+</li>
+<li><p>简写方式:<br> const school &#x3D; Vue.extend(options) &#x3D;&#x3D;&#x3D; const school &#x3D; options</p>
+</li>
+</ol>
+
                 
             </div>
             <hr/>
@@ -621,7 +751,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shilizhuang.github.io/movies/index.html">https://shilizhuang.github.io/movies/index.html</a>
+                    <a href="https://shilizhuang.github.io/2022/07/23/vue04/">https://shilizhuang.github.io/2022/07/23/vue04/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -658,7 +788,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
+                                <a href="/tags/vue2/">
+                                    <span class="chip bg-color">vue2</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -746,18 +884,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/movies/index.html">
+                <a href="/2022/07/26/vue05/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="movies">
+                        <img src="https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/medias/featureimages/22.jpg" class="responsive-img" alt="vue基础知识05">
                         
-                        <span class="card-title">movies</span>
+                        <span class="card-title">vue基础知识05</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -767,18 +904,29 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-23
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-26
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            shilizhuang
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/vue2/" class="post-category">
+                                    vue2
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/vue2/">
+                        <span class="chip bg-color">vue2</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -786,16 +934,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/movies/index.html">
+                <a href="/2022/07/22/vue03/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="movies">
+                        <img src="https://cdn.jsdelivr.net/gh/shilizhuang/shilizhuang.github.io/medias/featureimages/2.jpg" class="responsive-img" alt="vue2基础知识03">
                         
-                        <span class="card-title">movies</span>
+                        <span class="card-title">vue2基础知识03</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -806,17 +954,32 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-22
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            shilizhuang
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/vue2/" class="post-category">
+                                    vue2
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                    <a href="/tags/vue2/">
+                        <span class="chip bg-color">vue2</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
